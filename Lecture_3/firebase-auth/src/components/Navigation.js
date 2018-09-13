@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 let active= {fontWeight:'bold', color:'red'}
 
 const Navigation = ()=>
-<div>
+<nav className="navigation">
     <ul>
         <li><NavLink exact to="/" activeStyle={active}>Landing</NavLink></li>
         <li><NavLink  to="/home" activeStyle={active}>Home</NavLink></li>
@@ -11,6 +11,6 @@ const Navigation = ()=>
         <li><NavLink exact to="/account" activeStyle={active}>Account</NavLink></li>
     
     </ul>
-</div>
+</nav>
 
 export default Navigation;
