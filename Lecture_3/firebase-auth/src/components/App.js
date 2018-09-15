@@ -7,6 +7,8 @@ import Home from './Home'
 import Account from './Account'
 import SignIn from './SignIn'
 import Landing from './Landing'
+import SignUpPage from "./SignUp"
+import ForgotPassword from './ForgotPassword';
 
 class App extends Component {
   render() {
@@ -24,6 +26,9 @@ class App extends Component {
         <Route  path="/home" component={Home}></Route>
         <Route  path="/signin" component={SignIn}></Route>
         <Route  path="/account" component={Account}></Route>
+        <Route  path="/signup" component={SignUpPage}></Route>
+        <Route  path="/forgotpassword" component={ForgotPassword}></Route>
+
       </div>
       </Router>
     );
