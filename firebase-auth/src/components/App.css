@@ -47,5 +47,18 @@
   color: red !important ;
 }
 
+.form-group{
+  padding: 1rem;
+}
+
+.error{
+  color: red;
+  font-weight: bolder;
+  font-size: 18pt
+}
+
+
+
+
 
 
